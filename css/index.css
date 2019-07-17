@@ -57,6 +57,14 @@ aside {
     margin-top: 5px;
     line-height: 50px
 }
+#contact{
+    background-color:pink;
+    color: black;
+    opacity: .5;
+}
+#contact:hover{
+    background-color:mediumaquamarine
+}
 .side-item:hover{
     background-color:mediumaquamarine
 }
@@ -95,7 +103,8 @@ li[class="side-item active"] a {
 .btn:hover {
     width: 100px;
     height: 50px;
-    background-color: turquoise;
+    background-color: rgb(216, 105, 14);
+    opacity: .4;
     color: black;
     border: none;
     transition: all 0.9s
